@@ -74,21 +74,6 @@ else
 
   wget https://raw.githubusercontent.com/katzEco/katzuScript/main/paper/server.properties
 
-  echo 'Setup Server Name : '
-  read serverINP
-  serverMOTD='motd='$serverINP
-
-  echo ' '
-
-  echo 'Setup Server Spawn Protection : '
-  read serverSpawnINP
-  serverSPAWN='spawn-protection='$serverSpawnINP
-
-  echo ' '
-
-  echo $serverMOTD > server.properties
-  echo $serverSpawn > server.properties
-
   echo '"server.properties" is set up successful!'
   echo ' '
 fi
