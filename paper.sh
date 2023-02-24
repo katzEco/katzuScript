@@ -65,6 +65,34 @@ read RAMSIZE
 USAGERAM=$((RAMSIZE * 1024))
 echo ' '
 
+if [[ -f "$ROOT$FOLDER/server.properties" ]] {
+  echo '"server.properties" is already exist.'
+else
+  echo '"server.properties" is not exist'
+  echo 'Setting up "server.properties"..'
+  echo ' '
+
+  wget https://raw.githubusercontent.com/katzEco/katzuScript/main/paper/server.properties
+
+  echo 'Setup Server Name : '
+  read serverINP
+  serverMOTD='motd='$serverINP
+
+  echo ' '
+
+  echo 'Setup Server Spawn Protection : '
+  read serverSpawnINP
+  serverSPAWN='spawn-protection='$serverSpawnINP
+
+  echo ' '
+
+  echo $serverMOTD > server.properties
+  echo $serverSpawn > server.properties
+
+  echo '"server.properties" is set up successful!'
+  echo ' '
+fi
+
 echo 'Running Server..'
 echo ' '
 
