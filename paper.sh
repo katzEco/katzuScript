@@ -68,6 +68,6 @@ echo ' '
 echo 'Running Server..'
 echo ' '
 
-RAMCONF='java -Xms'$USAGERAM'G -Xmx'$USAGERAM'G -jar paper.jar --nogui'
+RAMCONF='java -Xms'$USAGERAM'M -Xmx'$USAGERAM'M -jar paper.jar --nogui'
 # echo "$RAMCONF"
 $RAMCONF
