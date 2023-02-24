@@ -67,6 +67,7 @@ echo ' '
 
 if [[ -f "$ROOT$FOLDER/server.properties" ]]; then
   echo '"server.properties" is already exist.'
+  echo ' '
 else
   echo '"server.properties" is not exist'
   echo 'Setting up "server.properties"..'
