@@ -65,7 +65,7 @@ read RAMSIZE
 USAGERAM=$((RAMSIZE * 1024))
 echo ' '
 
-if [[ -f "$ROOT$FOLDER/server.properties" ]] {
+if [[ -f "$ROOT$FOLDER/server.properties" ]]; then
   echo '"server.properties" is already exist.'
 else
   echo '"server.properties" is not exist'
