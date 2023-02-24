@@ -50,7 +50,7 @@ else
   echo ' '
 fi
 
-if ! command -v java &> /dev/null then
+if ! command -v java &> /dev/null; then
   echo '"java" is not found'
   echo 'Please install "java" first'
   echo ' '
