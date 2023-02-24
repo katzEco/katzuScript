@@ -55,4 +55,8 @@ if ! command -v java &> /dev/null; then
   echo 'Please install "java" first'
   echo ' '
   exit
+else
+  echo '"Java" is installed'
+  echo 'Running Server..'
+  echo ' '
 fi
