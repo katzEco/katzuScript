@@ -57,6 +57,17 @@ if ! command -v java &> /dev/null; then
   exit
 else
   echo '"Java" is installed'
-  echo 'Running Server..'
   echo ' '
 fi
+
+echo 'Enter your RAM Capacity (in GB) : '
+read RAMSIZE
+USAGERAM=$((RAMSIZE * 1024))
+echo ' '
+
+echo 'Running Server..'
+echo ' '
+
+RAMCONF='java -Xms'$USAGERAM'G -Xmx'$USAGERAM'G -jar paper.jar --nogui'
+# echo "$RAMCONF"
+$RAMCONF
