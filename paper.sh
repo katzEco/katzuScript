@@ -73,7 +73,7 @@ else
   echo 'Setting up "server.properties"..'
   echo ' '
 
-  wget https://raw.githubusercontent.com/katzEco/katzuScript/main/paper/server.properties
+  wget https://raw.githubusercontent.com/katzEco/katzuScript/main/source/paper/server.properties
 
   echo '"server.properties" is set up successful!'
   echo ' '
