@@ -30,7 +30,8 @@ source ./nbw.sh
 ```
 <br />
 
-## dethMastery's Bash dotFile Installer
+## dethMastery's dotFile Installer
+### bash
 > Run this line in your terminal
 
 ```sh
