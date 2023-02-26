@@ -43,3 +43,19 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/katzEco/katzuScript/main
 ```sh
 source ./dotfiles/bash.sh
 ```
+
+<br />
+
+### zsh
+#### On Linux
+> Run this line in your terminal
+
+```sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/katzEco/katzuScript/main/scripts/dotfiles/zshLinux.sh)"
+```
+
+> or Download `dotfiles/zshLinux.sh` and run this line of code
+
+```sh
+source ./dotfiles/zshLinux.sh
+```
