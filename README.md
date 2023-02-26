@@ -28,3 +28,17 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/katzEco/katzuScript/main
 ```sh
 source ./nbw.sh
 ```
+<br />
+
+## dethMastery's Bash dotFile Installer
+> Run this line in your terminal
+
+```sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/katzEco/katzuScript/main/scripts/dotfiles/bash.sh)"
+```
+
+> or Download `dotfiles/bash.sh` and run this line of code
+
+```sh
+source ./dotfiles/bash.sh
+```
