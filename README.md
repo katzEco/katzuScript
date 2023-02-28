@@ -59,3 +59,17 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/katzEco/katzuScript/main
 ```sh
 source ./dotfiles/zshLinux.sh
 ```
+<br />
+
+#### On MacOS
+> Run this line in your terminal
+
+```sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/katzEco/katzuScript/main/scripts/dotfiles/zshMacOS.sh)"
+```
+
+> or Download `dotfiles/zshMacOS.sh` and run this line of code
+
+```sh
+source ./dotfiles/zshMacOS.sh
+```
