@@ -4,6 +4,12 @@
 
 ## Listing
   - [paper.jar Installation](#paperjar-installation-for-run-minecraft-server-d)
+  - [Node.js Workflow](#nodejs-project-build-script)
+  - [dethMastery's dotFile Installer](#dethmasterys-dotfile-installer)
+    - [bash](#bash)
+    - [zsh](#zsh)
+      - [Linux](#on-linux)
+      - [MacOS](#on-macos)
 
 <br />
 
