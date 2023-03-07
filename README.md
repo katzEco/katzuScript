@@ -2,6 +2,11 @@
   katzuScipts
 </h1>
 
+## Listing
+  - [paper.jar Installation](#paperjar-installation-for-run-minecraft-server-d)
+
+<br />
+
 ## Paper.jar installation for run `Minecraft Server` :D
 > Run this line in your terminal
 
@@ -75,7 +80,7 @@ source ./dotfiles/zshMacOS.sh
 ```
 <br />
 
-## gitignored inition
+## gitignore inition
 > Run this line in your terminal
 
 ```sh
