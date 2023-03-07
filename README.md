@@ -10,6 +10,7 @@
     - [zsh](#zsh)
       - [Linux](#on-linux)
       - [MacOS](#on-macos)
+  - [gitignore inition](#gitignore-inition)
 
 <br />
 
