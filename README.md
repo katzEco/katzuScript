@@ -73,3 +73,17 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/katzEco/katzuScript/main
 ```sh
 source ./dotfiles/zshMacOS.sh
 ```
+<br />
+
+## gitignored inition
+> Run this line in your terminal
+
+```sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/katzEco/katzuScript/main/scripts/ignored.sh)"
+```
+
+> or Download `ignored.sh` and run this line of code
+
+```sh
+source ./ignored.sh
+```
