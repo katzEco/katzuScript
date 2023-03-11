@@ -11,6 +11,7 @@
       - [Linux](#on-linux)
       - [MacOS](#on-macos)
   - [gitignore inition](#gitignore-inition)
+  - [github sponser inition](#github-sponser-inition)
 
 <br />
 
@@ -98,4 +99,18 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/katzEco/katzuScript/main
 
 ```sh
 source ./ignored.sh
+```
+<br />
+
+## github sponser inition
+> Run this line in your terminal
+
+```sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/katzEco/katzuScript/main/scripts/sponser.sh)"
+```
+
+> or Download `sponser.sh` and run this line of code
+
+```sh
+source ./sponser.sh
 ```
