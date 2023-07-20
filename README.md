@@ -3,15 +3,17 @@
 </h1>
 
 ## Listing
-  - [paper.jar Installation](#paperjar-installation-for-run-minecraft-server-d)
-  - [Node.js Workflow](#nodejs-project-build-script)
-  - [dethMastery's dotFile Installer](#dethmasterys-dotfile-installer)
-    - [bash](#bash)
-    - [zsh](#zsh)
-      - [Linux](#on-linux)
-      - [MacOS](#on-macos)
-  - [gitignore inition](#gitignore-inition)
-  - [github sponser inition](#github-sponser-inition)
+- [Listing](#listing)
+- [Paper.jar installation for run `Minecraft Server` :D](#paperjar-installation-for-run-minecraft-server-d)
+- [Node.js Project build Script](#nodejs-project-build-script)
+- [dethMastery's dotFile Installer](#dethmasterys-dotfile-installer)
+  - [bash](#bash)
+  - [zsh](#zsh)
+    - [On Linux](#on-linux)
+    - [On MacOS](#on-macos)
+- [gitignore inition](#gitignore-inition)
+- [github sponser inition](#github-sponser-inition)
+- [fast 'live-server' file config](#fast-live-server-file-config)
 
 <br />
 
@@ -113,4 +115,17 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/katzEco/katzuScript/main
 
 ```sh
 source ./sponser.sh
+```
+
+## fast 'live-server' file config 
+> Run this line in your terminal
+
+```sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/katzEco/katzuScript/main/scripts/live-server.sh)"
+```
+
+> or Download `live-server.sh` and run this line of code
+
+```sh
+source ./live-server.sh
 ```
