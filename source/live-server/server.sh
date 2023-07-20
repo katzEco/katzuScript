@@ -1,0 +1,1 @@
+live-server --port=1980 --ignorePattern=".git/*" --no-browser
